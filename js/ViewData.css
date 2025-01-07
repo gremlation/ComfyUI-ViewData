@@ -1,0 +1,28 @@
+.gremlation.chip {
+    font-size: var(--comfy-textarea-font-size);
+    background: gray;
+    padding: 0.125em 0.25em;
+    border-radius: 0.25em;
+    height: auto !important;
+    width: auto !important;
+}
+
+.gremlation.chip.code {
+    font-family: monospace;
+}
+
+.gremlation-syntax-highlighted {
+    overflow: auto;
+
+    & pre[class*="language-"] {
+        padding: 0.5em;
+        background: var(--comfy-input-bg);
+        overflow-x: auto;
+        min-height: calc(100% - 0.5em);
+    }
+
+    & code {
+        display: block;
+        width: max-content;
+    }
+}

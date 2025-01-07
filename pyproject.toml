@@ -1,0 +1,25 @@
+[project]
+name = "comfyui-viewdata"
+description = "A ComfyUI node that displays the type and contents of whatever is connected to the input"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["torch"]
+requires-python = ">= 3.8"
+authors = [
+    {name = "Gremlation", email = "gremlation@proton.me"},
+]
+maintainers = [
+    {name = "Gremlation", email = "gremlation@proton.me"},
+]
+readme = "README.md"
+keywords = ["ComfyUI"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+]
+
+[project.urls]
+Repository = "https://github.com/gremlation/ComfyUI-ViewData"
+
+[tool.comfy]
+PublisherId = "gremlation"
+DisplayName = "ComfyUI-ViewData"
