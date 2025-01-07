@@ -59,12 +59,12 @@ class ViewDataExtension extends LGraphNode {
 
     configureStylesheets() {
         addColorSchemeReactiveStylesheets({
-            light: 'extensions/ComfyUI-ViewData/prism/light.css',
-            dark: 'extensions/ComfyUI-ViewData/prism/dark.css',
+            light: 'extensions/comfyui-viewdata/prism/light.css',
+            dark: 'extensions/comfyui-viewdata/prism/dark.css',
         })
         const extensionStylesheet = document.createElement('link');
         extensionStylesheet.rel = 'stylesheet';
-        extensionStylesheet.href = 'extensions/ComfyUI-ViewData/ViewData.css';
+        extensionStylesheet.href = 'extensions/comfyui-viewdata/ViewData.css';
         document.head.appendChild(extensionStylesheet);
     }
 
