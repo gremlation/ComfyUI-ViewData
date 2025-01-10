@@ -8,11 +8,16 @@ A ComfyUI node that displays the type and contents of whatever is connected to t
 
 ### ComfyUI-Manager
 
-- Open the manager
-- Pick "Install via Git URL"
-- Enter `https://github.com/Gremlation/ComfyUI-ViewData`
+- Open the Manager
+- Pick "Custom Nodes Manager"
+- Search for "ComfyUI-ViewData"
+- Install the latest version
+- Restart ComfyUI
 
-You may need to edit `custom_nodes/ComfyUI-Manager/config.ini` and set `security_level = normal-` first.
+### Comfy-Cli
+
+- Run `comfy node install comfyui-viewdata`
+- Restart ComfyUI
 
 ### Manual
 
