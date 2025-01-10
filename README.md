@@ -30,6 +30,9 @@ git clone https://github.com/Gremlation/ComfyUI-ViewData
 
 Then restart ComfyUI.
 
+Note that due to an issue with case-sensitivity, you may have to rename the `ComfyUI-ViewData` directory to the
+lowercase `comfyui-viewdata` before styles and syntax highlighting work.
+
 ## Options
 
 You can change the indentation level for dictionaries by going to Settings > View Data ~🅖
